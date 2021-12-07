@@ -61,6 +61,8 @@ AH está dirigido a garantizar integridad sin conexión y autenticación de los 
 
 ![vpn](/images/vpn.jpeg)
 
+**VIDEO EXPLICACIÓN:** [HAZ CLIC AQUÍ](https://www.youtube.com/embed/idyGjqIvU3c)
+
 Añadir encriptación hace que ESP sea un poco más complicado, ya que la encapsulación rodea a la carga útil es algo más que precederá con AH: ESP incluye cabecera y campos para dar soporte a la encriptación y a una autentificación opcional. Además, provee los modos de transporte y túnel, los cuales nos son ya familiares.
 
 Las RFCs de IPsec no insisten demasiado en un sistema particular de encriptación, pero normalmente se utiliza DES, triple-DES, AES o Blowfish para asegurar la carga útil de “ojos indiscretos”. El algoritmo usado para una conexión en particular es definido por la Security Association (SA), y esta SA incluye no sólo el algoritmo, también la llave usada.
@@ -76,7 +78,6 @@ Además de la encriptación, ESP puede proveer autenticación con la misma HMAC 
 Cuando un forastero examina un paquete IP que contiene datos ESP, es prácticamente imposible adivinar qué es lo que tiene dentro, excepto por los datos encontrados en la cabecera IP (siendo interesantes las direcciones IP de origen y destino). El atacante va a saber casi seguro que son datos ESP (está en la cabecera que son datos ESP), pero no va a saber de qué tipo es la carga útil.
 
 Incluso la presencia de Authentication Data no puede ser determina solamente con mirar al paquete. Esta resolución está hecha por la Security Parameters Index, que hace referencia al conjunto de parámetros precompartidos para esta conexión.
-
 
 ## VPN
 
