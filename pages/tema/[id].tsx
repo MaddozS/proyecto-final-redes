@@ -12,7 +12,7 @@ export default function Post({ postData }) {
       </Head>
       <Box bgcolor='#2F2F2F' minHeight='100vh' color="white" px={{xs: 10, lg: 30, xl:50}} py={{xs: 5, lg: 6, xl:10}}>
         <article style={{backgroundColor: '#2F2F2F' }}>
-          <Typography variant="h1" className={utilStyles.headingXl}>{postData.title}</Typography>
+          <Typography variant="h4" fontWeight='bold'>{postData.title}</Typography>
           {/* <div className={utilStyles.lightText}>
             <Date dateString={postData.date} />
           </div> */}
