@@ -27,7 +27,13 @@ const Navbar = () => {
       action: ()=>{
         router.push('/colaboradores')
       } 
-    }
+    },
+    {
+      label: 'Inicio', 
+      action: ()=>{
+        router.push('/')
+      }
+    },
   ];
 
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);

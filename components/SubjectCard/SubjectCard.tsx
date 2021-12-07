@@ -6,14 +6,14 @@ import Typography from '@mui/material/Typography';
 import { CardActionArea, createTheme } from '@mui/material';
 
 
-export default function ActionAreaCard({title, description, href}) {
+export default function ActionAreaCard({title, description, href, img}) {
   return (
     <Card>
       <CardActionArea href={href || '#'} >
         <CardMedia
           component="img"
           height="240"
-          image="/images/pc.jfif"
+          image={img || "/images/pc.jfif"}
           alt="green iguana"
         />
         <CardContent sx={{backgroundColor: '#FFFDF7'}}>
