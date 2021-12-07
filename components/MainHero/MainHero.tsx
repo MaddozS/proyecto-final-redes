@@ -7,16 +7,16 @@ import Grid from "@mui/material/Grid";
 
 export const MainHero = () => {
 
-    const [offset, setOffset] = useState(0);
-    const handleScroll = () => {console.log(window.scrollY); setOffset(window.scrollY)}
+    // const [offset, setOffset] = useState(0);
+    // const handleScroll = () => {console.log(window.scrollY); setOffset(window.scrollY)}
 
-    useEffect(() => {
-        window.addEventListener("scroll", handleScroll)
-        return ()=> window.removeEventListener("scroll", handleScroll)
-    }, [setOffset]);
+    // useEffect(() => {
+    //     window.addEventListener("scroll", handleScroll)
+    //     return ()=> window.removeEventListener("scroll", handleScroll)
+    // }, [setOffset]);
 
     return (
-            <StyledMainHero pos={offset}>
+            <StyledMainHero>
                 <Image src='/images/server.jpg' id="bg" layout="fill" priority/>
                 <Grid 
                     container 
