@@ -9,14 +9,14 @@ import { CardActionArea, createTheme } from '@mui/material';
 export default function ActionAreaCard({title, description, href, img}) {
   return (
     <Card>
-      <CardActionArea href={href || '#'} >
+      <CardActionArea href={href || '#'} sx={{textDecoration: 'none'}}>
         <CardMedia
           component="img"
           height="240"
           image={img || "/images/pc.jfif"}
           alt="green iguana"
         />
-        <CardContent sx={{backgroundColor: '#FFFDF7'}}>
+        <CardContent sx={{backgroundColor: '#A79AB2'}}>
           <Typography gutterBottom variant="h5" component="div">
             {title}
           </Typography>
