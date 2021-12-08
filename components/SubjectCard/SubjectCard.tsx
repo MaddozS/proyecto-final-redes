@@ -12,7 +12,7 @@ export default function ActionAreaCard({title, description, href, img}) {
       <CardActionArea href={href || '#'} sx={{textDecoration: 'none'}}>
         <CardMedia
           component="img"
-          height="240"
+          height="270"
           image={img || "/images/pc.jfif"}
           alt="green iguana"
         />

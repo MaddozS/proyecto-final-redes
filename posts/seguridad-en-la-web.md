@@ -12,6 +12,8 @@ La seguridad en la web debe ser una prioridad crítica para cada organización. 
 
 ![PHOTO](/images/tema3-photo5.jpeg)
 
+**VIDEO EXPLICACIÓN DEL TEMA:** [https://www.youtube.com/watch?v=ZyKZm6kF0QI&t=1s&ab_channel=GoogleSearchCentral](https://www.youtube.com/watch?v=ZyKZm6kF0QI&t=1s&ab_channel=GoogleSearchCentral)
+
 HTTPS (HyperText Transfer Protocol Secure, protocolo seguro de transferencia de hipertexto) es un protocolo de comunicación de Internet que protege la integridad y la confidencialidad de los datos de los usuarios entre sus ordenadores y el sitio web. Como los usuarios esperan que su experiencia online sea segura y privada, te recomendamos que adoptes HTTPS para proteger sus conexiones con tu sitio web, independientemente de lo que este contenga.
 El envío de datos mediante el protocolo HTTPS está protegido con el protocolo Seguridad en la capa de transporte (Transport Layer Security, TLS), que proporciona estas tres capas de seguridad principales:
 
