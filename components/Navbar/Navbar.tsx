@@ -17,6 +17,12 @@ const Navbar = () => {
   const router = useRouter()
   const pages = [
     {
+      label: 'Inicio', 
+      action: ()=>{
+        router.push('/')
+      }
+    },
+    {
       label: 'Temas', 
       action: ()=>{
         router.push('/#temas')
@@ -29,9 +35,9 @@ const Navbar = () => {
       } 
     },
     {
-      label: 'Inicio', 
+      label: 'Referencias', 
       action: ()=>{
-        router.push('/')
+        router.push('/tema/referencias')
       }
     },
   ];
