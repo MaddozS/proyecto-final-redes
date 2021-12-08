@@ -8,7 +8,7 @@ const index = () => {
   const subjectsCards = [
     {
       title: 'Programación de aplicaciones con sockets',
-      href: '/tema/introduccion-a-las-redes-de-las-computadoras',
+      href: '/tema/programacion-de-aplicaciones-con-sockets',
       img: '/images/tema1.png',
       description: 'La seguridad de la red es un tema que día a día toma más importancia, ya que con la adopción del Internet como instrumento de comunicación y colaboración, cada vez son más los datos que manejamos por medio de computadoras y dispositivos móviles conectados entre sí, haciéndonos más vulnerables a los riesgos de ataques internos y externos como virus, gusanos, caballos de troya, códigos maliciosos, suplantación de identidad (phishing), hackers y más'
     },
